@@ -1,0 +1,157 @@
+{
+  "blips": {
+    "windmill_manager": "風車マネージャー",
+    "owned_windmill": "所有している風車 #"
+  },
+  "target": {
+    "buy_windmill": "風車を購入",
+    "manage_windmill": "風車を管理"
+  },
+  "error": {
+    "went_wrong": "何かがうまくいきませんでした。後ほどお試しください。",
+    "not_owned": "あなたはこの風車を所有していません！",
+    "already_owned": "あなたはすでに風車を所有しています！",
+    "buyer_already_own_turbine": "%s はすでに風車を所有しています！",
+    "missing_money": "お金が足りません！"
+  },
+  "progresscircle": {
+    "manage_menu": "パネルを確認中",
+    "buying_windmill": "風車を購入中",
+    "peter_menu": "ピーターと話しています...",
+    "selling_batteries": "バッテリーを販売中..."
+  },
+  "ui": {
+    "not_owning_windmill": "あなたは風車を所有していません。購入してから戻ってきてください！",
+
+    "buy_turbine": "この風車は $%s です。購入してもよろしいですか？",
+
+    "windmill": "風車 #",
+    "energy_stored": "現在の蓄電量: %s MWh",
+    "energy_stored_max": "現在の蓄電量: %s MWh \n(最大蓄電量に達しました)",
+    "max_storage_description": "この貯蔵庫は満杯になることがあります。時々アップグレードするか空にしてください！",
+    "storage_metadata": "最大蓄電量: %s MWh",
+
+    "empty_storage_title": "貯蔵庫を空にする",
+    "empty_storage_description": "これにより、保持できる最大のバッテリーが得られます。",
+    "empty_storage_content": "貯蔵庫からバッテリーを取り出しますか？",
+    "empty_storage_metadata": "バッテリー: %s",
+    "empty_notify_description": "貯蔵庫から %s 個のバッテリーを取り出しました。",
+    "empty_notify_description_no_space": "まずインベントリを空にしてください。",
+
+    "windmill_manager": "風車マネージャー",
+
+    "capacity_title": "バッテリー容量:",
+    "capacity_description": "バッテリー容量を増やすと、より多くのエネルギーを貯蔵できます。",
+    "capacity_description2": "バッテリー容量はすでに最大レベルなのでアップグレードできません！",
+    "capacity_header": "## バッテリー容量をアップグレード",
+    "capacity_content": "$%s でバッテリー容量をアップグレードしますか？",
+    "upgraded_notify_description_capacity": "バッテリー容量をレベル %s にアップグレードしました。",
+    "nomoney_notify_description_capacity": "風車をアップグレードするには $%s が必要です。",
+    "capacity_metadata": "現在のバッテリー容量レベル: %s",
+
+    "durability_title": "耐久性をアップグレード:",
+    "durability_description": "風車の耐久性を上げると、風車をより長く稼働させることができます。",
+    "durability_description2": "風車の耐久性はすでに最大レベルなのでアップグレードできません！",
+    "durability_header": "## 風車の耐久性をアップグレード",
+    "durability_content": "$%s で風車の耐久性をアップグレードしますか？",
+    "upgraded_notify_description_durability": "風車の耐久性をレベル %s にアップグレードしました。",
+    "nomoney_notify_description_durability": "風車をアップグレードするには $%s が必要です。",
+    "durability_metadata": "現在の風車の耐久性レベル: %s",
+
+    "efficiency_title": "効率をアップグレード:",
+    "efficiency_description": "風車の効率を上げると、風車がより多くの MWh を取得します。",
+    "efficiency_description2": "風車の効率はすでに最大レベルなのでアップグレードできません！",
+    "efficiency_header": "## 風車の効率をアップグレード",
+    "efficiency_content": "$%s で風車の効率をアップグレードしますか？",
+    "upgraded_notify_description_efficiency": "風車の効率をレベル %s にアップグレードしました。",
+    "nomoney_notify_description_efficiency": "風車をアップグレードするには $%s が必要です。",
+    "efficiency_metadata": "現在の風車の効率レベル: %s",
+
+    "grid_connection_title": "送電網接続:",
+    "grid_connection_description": "送電網接続をすると、エネルギー貯蔵が満杯になったときに MWh を自動的に販売できます。",
+    "grid_connection_description2": "送電網接続はすでに最大レベルなのでアップグレードできません！",
+    "grid_connection_header": "## 送電網接続をアップグレード",
+    "grid_connection_content": "$%s で送電網接続をアップグレードしますか？",
+    "upgraded_notify_description_grid_connection": "送電網接続をレベル %s にアップグレードしました。",
+    "nomoney_notify_description_grid_connection": "風車をアップグレードするには $%s が必要です。",
+    "grid_connection_metadata": "現在の送電網接続レベル: %s",
+
+    "security_title": "風車のセキュリティ:",
+    "security_description": "風車のセキュリティは、エネルギー泥棒からあなたを守ります。",
+    "security_description2": "風車のセキュリティはすでに最大レベルなのでアップグレードできません！",
+    "security_header": "## 風車のセキュリティをアップグレード",
+    "security_content": "$%s で風車のセキュリティをアップグレードしますか？",
+    "upgraded_notify_description_security": "風車のセキュリティをレベル %s にアップグレードしました。",
+    "nomoney_notify_description_security": "風車をアップグレードするには $%s が必要です。",
+    "security_metadata": "現在の風車のセキュリティレベル: %s",
+
+    "manage_description": "この貯蔵庫は満杯になることがあります。時々アップグレードするか空にしてください！",
+    "manage_metadata": "最大蓄電量: %s MWh",
+    "production_title": "風車の生産:",
+    "production_description": "このタービンは嵐ごとに %s MWh を生産します。",
+    "production_metadata": "可能: %s MWh。",
+    "durability_title_manage": "風車の耐久性:",
+    "durability_description_manage": "風車の耐久性は重要です！5パーセント未満にしないでください。停止します！\n風車の耐久性: %s パーセント。",
+    "durability_metadata_manage": "可能: %s パーセント。",
+
+    "cant_repair": "今は修理できません！",
+    "want_to_repair": "$%s で風車を修理しますか？",
+    "repaired_turbine": "$%s で風車を完全に修理しました。",
+    "nomoney_turbine": "風車を完全に修理するには $%s が必要です。",
+
+    "sell_turbine_title": "風車を売却",
+    "sell_turbine_description": "この風車を風車マネージャーに売却します。支払った金額の75%を受け取ります。",
+    "sell_turbine_content": "このタービンに $%s を費やしました。$%s を受け取ります。",
+    "sold_turbine_description": "タービン #%s を $%s で売却しました。",
+
+    "sold_batteries": "バッテリーを売却しました。",
+
+    "selltoplayer_turbine_title": "プレイヤーにタービンを売却",
+    "selltoplayer_turbine_description": "カスタム価格で別のプレイヤーにタービンを売却します。",
+    "selltoplayer_turbine_header": "タービンを売却 #",
+    "citzienid_label": "プレイヤー市民ID",
+    "citzienid_description": "売却したいプレイヤーの市民IDを入力してください。",
+    "price_label": "販売価格 ($)",
+    "price_description": "この風車販売の価格を設定してください。",
+
+    "selltoplayer_confirm_content": "$%s で %s に風車を売却してもよろしいですか？",
+    "selltoplayer_sold_description": "風車ID %s をプレイヤーID %s に $%s で売却しました。",
+    "selltoplayer_no_money_description": "プレイヤーはこのタービンを購入するのに十分なお金がありません。",
+    "selltoplayer_not_found_description": "指定されたプレイヤーCIDが見つかりませんでした。",
+    "selltoplayer_finalize": "$%s でこの風車を購入しますか？",
+    "selltoplayer_nomoney": "お金が足りません。",
+    "selltoplayer_nomoney2": "買い手にお金が足りません。",
+    "selltoplayer_sold": "$%s で風車を売却しました。",
+    "selltoplayer_bought": "$%s で風車を購入しました。",
+    "selltoplayer_declined": "買い手が購入を辞退しました。",
+
+    "batteries_buyer": "バッテリー買い手",
+    "sold_batteries_description": "兄さん？何を買えばいいんだ、ポケットは空っぽだ！",
+    "sold_batteries_title": "バッテリーを売却",
+    "sold_batteries_type_label": "バッテリーをいくつ売却しますか？",
+    "sold_batteries_type_description": "売却したい数量を選択してください。",
+    "sold_batteries_type_label2": "支払い方法",
+    "sold_batteries_type_description2": "支払い方法を選択してください。",
+    "sold_batteries_cash": "現金",
+    "sold_batteries_bank": "銀行振込",
+    "sold_batterys_notify_description": "%s 個のバッテリーを $%s で売却しました。"
+
+  },
+  "server": {
+    "upgraded_turbine": "風車をアップグレードしました ( %s )",
+    "repaired_turbine": "風車を修理しました",
+    "bought_turbine": "$%s で風車を購入しました",
+    "sold_turbine": "風車を売却しました",
+    "overflow_energy_price": "溢れたエネルギーを売却しました。"
+  },
+  "robbing": {
+    "windmill_robbing": "風車強盗",
+    "cutting_wires": "ワイヤーを切断中",
+    "failed": "間違ったワイヤーを切ってしまった、すぐに脱出しよう。",
+    "robbing_own": "自分のものを盗むなよ！",
+    "no_windmill": "このエリアには風車がありません。",
+    "already_robbed": "すでに強盗されました..",
+    "item_missing": "何かが足りません。",
+    "no_space": "十分なスペースがありませんでした.. 地面に落ちてくれてよかった！"
+  }
+}
